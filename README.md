@@ -1,16 +1,11 @@
-# Nerfies
+# SpatialStack (Anonymous)
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This directory hosts the anonymized project page for **SpatialStack**, a hierarchical fusion framework for spatially grounded vision-language models. The page lives in `index.html` and follows the structure of the [Nerfies website template](https://nerfies.github.io), with updated content, assets from `../figs`, and references stripped of identifying details.
 
-If you find Nerfies useful for your work please cite:
-```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}
-```
+## Structure
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+- `index.html` — entry page with hero, abstract, architectural overview, and benchmark highlights.
+- `static/` — styling, scripts, and converted PNG figures that were rendered from the provided PDFs.
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work inherits the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> from the Nerfies template. Please retain attribution to the original template when redistributing.
