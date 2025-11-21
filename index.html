@@ -71,6 +71,23 @@
   </div>
 </section>
 
+<section class="section" id="roi-similarity">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">ROI Similarity</h2>
+    <figure class="image">
+      <img src="./static/images/figc_roi_similarity.png" alt="ROI similarity comparison between geometry and vision features across encoder depths">
+      <figcaption class="has-text-centered is-italic mt-2">
+        <strong>ROI similarity across encoder depths.</strong> For two indoor scenes, the top row shows the RGB image with the ROI marked in red. The lower rows display similarity maps (brighter means more similar) at 50%, 75%, and 100% depths of the geometry encoder (left) and the vision encoder (right). Geometry features preserve meaningful spatial structure, while vision features are noisy and become nearly uniform at deeper layers.
+      </figcaption>
+    </figure>
+    <div class="content has-text-justified mt-4">
+      <p>
+        SpatialStack stacks geometry tokens because the geometry stream preserves ROI structure across encoder depths, while vision features become noisy and nearly uniform at deeper layers, motivating hierarchical geometry-language fusion.
+      </p>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="architecture">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Architecture</h2>
