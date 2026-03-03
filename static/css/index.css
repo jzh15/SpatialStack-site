@@ -57,9 +57,9 @@ body {
 
 .publication-venue {
     color: #555;
-    width: fit-content;
     font-weight: bold;
-    margin: 1rem auto 0;
+    text-align: center;
+    margin: 1rem auto 0.75rem;
 }
 
 .publication-awards {
@@ -71,9 +71,61 @@ body {
 .publication-authors {
 }
 
-.publication-links .button {
-  min-width: 130px;
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.project-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 6.75rem;
+  padding: 0.7rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: 0 10px 24px rgba(17, 24, 39, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(17, 24, 39, 0.12);
+}
+
+.project-pill-muted {
+  background: #f7f7f7;
+  color: #8a8a8a;
+  border-color: #e6e6e6;
+  box-shadow: none;
+  cursor: default;
+}
+
+.project-pill-muted:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.project-pill-dark {
+  background: #232323;
+  color: #fff !important;
+}
+
+.project-pill-gold {
+  background: #f1cb58;
+  color: #4a3b07 !important;
+}
+
+.project-pill-blue {
+  background: #3c8ed9;
+  color: #fff !important;
 }
 
 .publication-authors a {
