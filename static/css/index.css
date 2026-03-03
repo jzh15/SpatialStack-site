@@ -59,6 +59,7 @@ body {
     color: #555;
     width: fit-content;
     font-weight: bold;
+    margin: 1rem auto 0;
 }
 
 .publication-awards {
@@ -68,6 +69,11 @@ body {
 }
 
 .publication-authors {
+}
+
+.publication-links .button {
+  min-width: 130px;
+  justify-content: center;
 }
 
 .publication-authors a {
